@@ -3,6 +3,8 @@ from flask import Flask, jsonify
 # access token: 2579652295455383
 app = Flask(__name__)
 
+
+# this wil be the main function
 @app.route("/get_data")
 def home():
     response = jsonify({"price": 1230, "acommodate": 900})
