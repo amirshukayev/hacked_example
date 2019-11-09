@@ -7,7 +7,7 @@ app = Flask(__name__)
 # this wil be the main function
 @app.route("/get_data")
 def home():
-    response = jsonify({"price": 1230, "acommodate": 900})
+    response = jsonify({"price": 1230, "acommodate": 1000})
 
     # response.headers.add('Access-Control-Allow-Origin', '*')
     # response.headers.add('Access-Control-Allow-Headers', '*')
